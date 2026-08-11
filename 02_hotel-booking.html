@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Hotel Room Booking</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: green;
+  margin-top: 30px;
+}
+p {
+  font-size: 16px;
+}
+ul {
+  font-size: 15px;
+}
+input {
+  padding: 5px;
+  margin: 5px 0;
+  width: 200px;
+}
+button {
+  padding: 8px 15px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+hr {
+  margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>Online Hotel Room Booking</h1>
+<p>Search hotels, book rooms, manage reservations and payments.</p>
+<p><b>Lab Experiment Number:</b> 2</p>
+<hr>
+
+<h2>User</h2>
+<p>Features / Modules:</p>
+<ul>
+  <li>Register/Login</li>
+  <li>View/Modify Profile</li>
+  <li>Check Room Availability</li>
+  <li>Book a Room</li>
+  <li>View Booking History</li>
+  <li>Change/Cancel Booking (3+ days prior)</li>
+</ul>
+
+<p><b>User Login Form:</b></p>
+<form onsubmit="return showMessage('User')">
+  Username: <br>
+  <input type="text" required> <br>
+  Password: <br>
+  <input type="password" required> <br>
+  <button type="submit">Login</button>
+</form>
+<hr>
+
+<h2>Admin</h2>
+<p>Features / Modules:</p>
+<ul>
+  <li>Manage Room Type Price & Quantity</li>
+  <li>Edit/Cancel Any Booking</li>
+  <li>Manage Static Pages (About, Contact, Policy)</li>
+</ul>
+<hr>
+
+<script>
+function showMessage(roleName) {
+  alert("This is a demo login for " + roleName + ". No real data is sent.");
+  return false;
+}
+</script>
+
+</body>
+</html>
