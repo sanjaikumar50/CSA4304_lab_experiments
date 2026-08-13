@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gourmet Haven — Fine Dining Restaurant Website</title>
+<style>
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #ffffff;
+  color: #222222;
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+h1 {
+  color: #1a4d8f;
+  border-bottom: 3px solid #1a4d8f;
+  padding-bottom: 8px;
+}
+h2 {
+  color: #ffffff;
+  background-color: #1a4d8f;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.tagline {
+  color: #555555;
+  font-style: italic;
+}
+.exp-no {
+  font-size: 13px;
+  color: #777777;
+}
+.block {
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 22px;
+  background-color: #fafafa;
+}
+.label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+ul {
+  margin-top: 4px;
+}
+li {
+  margin-bottom: 4px;
+}
+label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+input[type="text"], input[type="password"] {
+  padding: 6px;
+  width: 220px;
+  margin-top: 3px;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  display: block;
+  margin-top: 12px;
+  padding: 7px 18px;
+  background-color: #1a4d8f;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #143d70;
+}
+.note {
+  color: #666666;
+  font-size: 13.5px;
+  margin-top: 10px;
+}
+</style>
+</head>
+<body>
+
+<h1>Gourmet Haven — Fine Dining Restaurant Website</h1>
+<p class="tagline">Restaurant site with menu, gallery and reservations.</p>
+<p class="exp-no">Lab Experiment Number: 39</p>
+
+  <div class="block">
+    <h2>Visitor</h2>
+    <p class="label">Modules:</p>
+    <ul>
+      <li>View Homepage Carousel</li>
+      <li>Browse Menu by Category</li>
+      <li>View Gallery</li>
+      <li>Book Table (Date/Time/Guests)</li>
+      <li>Read About Us</li>
+      <li>View Special Offers</li>
+      <li>Read Testimonials</li>
+      <li>Contact / Map</li>
+    </ul>
+    <p class="note">No separate login is required for the Visitor role in this demo.</p>
+  </div>
+
+  <div class="block">
+    <h2>Admin</h2>
+    <p class="label">Modules:</p>
+    <ul>
+      <li>Manage Menu Items</li>
+      <li>Manage Reservations</li>
+      <li>Manage Offers & Events</li>
+    </ul>
+    <p class="note">No separate login is required for the Admin role in this demo.</p>
+  </div>
+
+<script>
+function handleLogin(role) {
+  alert("Demo login for " + role + ". No data is submitted.");
+  return false;
+}
+</script>
+
+</body>
+</html>
